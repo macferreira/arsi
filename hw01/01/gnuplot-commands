@@ -1,0 +1,5 @@
+set xlabel "k"
+set ylabel "P(k)"
+set boxwidth 0.5
+set style fill solid
+plot "data.dat" with boxes notitle

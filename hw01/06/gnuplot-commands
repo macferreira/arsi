@@ -1,0 +1,3 @@
+set xlabel "p"
+set ylabel "Giant component size"
+plot "data.dat" with linespoints ls 1 notitle

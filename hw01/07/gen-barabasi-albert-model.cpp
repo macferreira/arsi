@@ -1,8 +1,6 @@
-#include <vector>
 #include <fstream>
 #include <iostream>
 #include <list>
-#include <stdio.h>
 
 // Graph class represents a undirected graph
 // using adjacency list representation

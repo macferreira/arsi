@@ -1,0 +1,9 @@
+set xlabel "Dumping Factor"
+set ylabel "Page Rank"
+plot "dataA.dat" with linespoints ls 1 lt rgb "yellow" title "A", \
+     "dataB.dat" with linespoints ls 1 lt rgb "green" title "B", \
+     "dataC.dat" with linespoints ls 1 lt rgb "blue" title "C", \
+     "dataD.dat" with linespoints ls 1 lt rgb "violet" title "D", \
+     "dataE.dat" with linespoints ls 1 lt rgb "red" title "E", \
+     "dataF.dat" with linespoints ls 1 lt rgb "orange" title "F", \
+     "dataG.dat" with linespoints ls 1 lt rgb "black" title "G"

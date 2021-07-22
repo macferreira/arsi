@@ -1,0 +1,6 @@
+set xlabel "degree"
+set ylabel "frequency"
+set logscale xy
+set format x "10^{%L}"
+set format y "10^{%L}"
+plot "data.dat" using 1:2 pt 7 ps 2 notitle

@@ -147,7 +147,7 @@ int main(int argc, char *argv[])
     {
         std::cout << "Usage: " << argv[0] << " <import name>"
                   << " <export file>" << std::endl;
-        
+
         return 0;
     }
 
